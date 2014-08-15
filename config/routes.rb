@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-  root 'static_pages#index'
+  root 'static_pages#home'
   
   get "static_pages/home"
   get "static_pages/help"
